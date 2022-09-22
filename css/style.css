@@ -8,14 +8,11 @@
 
 /* Footer */
 .contatos {
-    /* position:fixed; */
     display:flex;
     flex-direction: column;
     gap: 50px;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 0px 50px 0px;
-    background-color: #dcdcdc;
+    padding: 50px;
+    background-color: #171717;
 }
 
 
@@ -25,6 +22,7 @@
     border-radius: 5px;
     /* gap: 30px; */
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 
@@ -56,27 +54,20 @@ color: rgba(255, 255, 255, 0.75);
 
 .info-rodape {
   top: 20px;
+  /* margin: 20px; */
+  text-align: center;
     font-family: 'Open sans', sans-serif;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 20px;
+    /* line-height: 21px; */
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
-@media(min-width: 768px) and (max-width:1022px){
-/* tablet */
-.contatos{
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    
-    }
 
-}
 
-@media (min-width:1023px) {
+@media (min-width:431px) and (max-width:1500px) {
     /* desktop*/
 .contatos {
     flex-direction: row;
@@ -89,8 +80,8 @@ color: rgba(255, 255, 255, 0.75);
     padding-bottom: 10px;
     font-family: 'Open sans', sans-serif;
     font-style: normal;
-    /* font-weight: 400; */
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 700;
